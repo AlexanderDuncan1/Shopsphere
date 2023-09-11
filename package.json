@@ -1,0 +1,37 @@
+{
+  "name": "shopsphere",
+  "version": "1.0.0",
+  "description": "E-commerce marketplace application.",
+  "main": "nodemon server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "tailwindcss -i ./public/css/input.css -o ./public/css/style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Verouge/ShopSphere.git"
+  },
+  "author": "Tea-With-Duncan (Baz, Brandon, Duncan, Theresa)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Verouge/ShopSphere/issues"
+  },
+  "homepage": "https://github.com/Verouge/ShopSphere#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "cloudinary": "^1.40.0",
+    "connect-session-sequelize": "^7.0.4",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^7.1.2",
+    "express-session": "^1.17.3",
+    "multer": "^1.4.5-lts.1",
+    "mysql2": "^2.2.1",
+    "sequelize": "^6.3.5"
+  },
+  "devDependencies": {
+
+    "tailwindcss": "^3.3.3"
+  }
+}
